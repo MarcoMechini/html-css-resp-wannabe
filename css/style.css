@@ -130,9 +130,9 @@ img {
  ************************************************/
 
 
-@media screen and (max-width: 768px) {
-
-    /* LAYOUT */
+/* PS in questo caso è una rindondanza lasciare 
+lo stesso comando per i 768 e basta darlo per i 1160px*/
+@media screen and (max-width: 1160px) {
     .container {
         width: 100%;
     }
